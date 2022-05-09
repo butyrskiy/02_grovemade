@@ -24,7 +24,7 @@ img {
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboro'),
+    src: local('Roboto'),
     url(../fonts/RobotoRegular.woff2) format('woff2');
     font-display: swap;
     font-weight: 400;
@@ -33,7 +33,7 @@ img {
 
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboro'), 
+    src: local('Roboto'), 
     url(../fonts/RobotoBold.woff2) format('woff2');
     font-display: swap;
     font-weight: 700;
@@ -42,9 +42,14 @@ img {
 
 body {
     font-family: 'Roboto', sans-serif;
+}
 
 .container {
     max-width: 1370px;
     padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hard_way__photo {
     margin: 0 auto;
 }

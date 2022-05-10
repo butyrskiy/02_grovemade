@@ -51,20 +51,20 @@ body {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.nav__box {
+.header__container {
     display: flex;
     align-items: center;
+    padding: 30px 0;
     padding-left: 582.5px;
 }
 
 .logo {
     display: inline-block;
-    padding: 30px 0;
 }
 
 .nav {
@@ -81,4 +81,49 @@ ul {
 
 .nav__item:not(:last-child) {
     margin-right: 40px;
+}
+
+.hero {
+    background-image: url(../img/hero_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 504px;
+    padding-top: 193px;
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.hero__subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.hero__link {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__link:hover {
+    text-decoration: underline;
 }

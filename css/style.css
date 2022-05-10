@@ -88,8 +88,10 @@ ul {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1440px;
     height: 504px;
     padding-top: 193px;
+    margin: 0 auto;
 }
 
 .hero__title {

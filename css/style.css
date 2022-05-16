@@ -10,6 +10,21 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -40,39 +55,27 @@ img {
     font-style: normal;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    max-width: 1370px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.header__container {
-    display: flex;
-    align-items: center;
-    padding: 30px 0;
-    padding-left: 582.5px;
-}
-
-.logo {
-    display: inline-block;
-}
+/* ---------- END Fonts ---------- */
 
 .nav {
-    margin-left: auto;
+    padding: 0 15px;
 }
 
 .nav__list {
+    height: 76px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.nav__list-centr {
+    padding: 15px;
 }
 
 .nav__item {
@@ -80,7 +83,7 @@ ul {
 }
 
 .nav__item:not(:last-child) {
-    margin-right: 40px;
+   
 }
 
 .hero {
@@ -92,6 +95,7 @@ ul {
     height: 504px;
     padding-top: 193px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 .hero__title {
@@ -128,4 +132,46 @@ ul {
 
 .hero__link:hover {
     text-decoration: underline;
+}
+
+.design_inspires__top {
+    margin-bottom: 80px;
+}
+
+.design_inspires__title {
+    margin: 0;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+.design_inspires__subtitle {
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+}
+
+.design_inspires__link {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.design_inspires__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
 }
